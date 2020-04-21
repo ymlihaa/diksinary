@@ -1,1 +1,1 @@
-<?php include_once("./resources/home.html"); ?> 
+<?php include_once("./resources/login.html"); ?> 

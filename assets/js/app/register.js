@@ -23,7 +23,7 @@ document.querySelector("#btn").addEventListener("click", () => {
         .auth()
         .signInWithEmailAndPassword(email, password)
         .then(() => {
-          window.location.href = "./resources/home.html";
+          window.location.href = "/home.html";
         });
     })
     .catch((err) => {

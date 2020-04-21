@@ -119,7 +119,7 @@ function onLoad() {
           .auth()
           .signOut()
           .then(() => {
-            window.location.href = "./resources/login.html";
+            window.location.href = "/login.html";
           });
       });
 

@@ -19,7 +19,7 @@ document.querySelector("#btn-login").addEventListener("click", () => {
     .auth()
     .signInWithEmailAndPassword(email, password)
     .then(() => {
-      window.location.href = "./resources/index.html";
+      window.location.href = "./resources/home.html";
     })
     .catch((err) => {
       alert(err.message);
